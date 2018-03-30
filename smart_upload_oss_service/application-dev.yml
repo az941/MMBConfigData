@@ -1,0 +1,9 @@
+server:
+  port: 8881
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 10000
